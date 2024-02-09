@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  position: relative;
+  user-select: none;
+  margin: 0;
+  /* overflow-x: hidden; */
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
